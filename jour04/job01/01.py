@@ -1,2 +1,5 @@
-fruits = ["pomme", "cerise", "orange"]
-print(fruits)
+def fruits():
+    return ['pomme', 'cerise', 'orange']
+
+a=fruits()
+print(a)
